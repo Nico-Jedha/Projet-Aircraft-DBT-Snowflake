@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: aircraft_db
+    database: aircrafts
+    schema: public
+    tables:
+      - name: AIRCRAFT
+      - name: AIRLINES
+      - name: AIRPORTS
+      - name: FLIGHT_SUMMARY_DATA
+      - name: INDIVIDUAL_FLIGHTS
